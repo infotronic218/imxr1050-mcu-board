@@ -91,12 +91,27 @@
                         <data>true</data>
                      </feature>
                   </dependency>
+                  <dependency resourceType="Peripheral" resourceId="LPSPI3" description="Peripheral LPSPI3 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="LPSPI4" description="Peripheral LPSPI4 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
                   <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Pins initialization requires the COMMON Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
                      <feature name="enabled" evaluation="equal" configuration="core0">
                         <data>true</data>
                      </feature>
                   </dependency>
                   <dependency resourceType="SWComponent" resourceId="platform.drivers.iomuxc" description="Pins initialization requires the IOMUXC Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
+                     <feature name="enabled" evaluation="equal" configuration="core0">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="SWComponent" resourceId="platform.drivers.xbara" description="Pins initialization requires the XBARA Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
                      <feature name="enabled" evaluation="equal" configuration="core0">
                         <data>true</data>
                      </feature>
@@ -137,6 +152,15 @@
                   <pin peripheral="LPUART6" signal="TX" pin_num="M11" pin_signal="GPIO_AD_B0_02"/>
                   <pin peripheral="USB2" signal="usb_otg2_pwr" pin_num="L10" pin_signal="GPIO_AD_B0_15"/>
                   <pin peripheral="USB2" signal="usb_otg2_oc" pin_num="H14" pin_signal="GPIO_AD_B0_14"/>
+                  <pin peripheral="LPSPI3" signal="SCK" pin_num="J14" pin_signal="GPIO_AD_B1_15"/>
+                  <pin peripheral="LPSPI3" signal="SDI" pin_num="H11" pin_signal="GPIO_AD_B1_13"/>
+                  <pin peripheral="LPSPI3" signal="SDO" pin_num="G12" pin_signal="GPIO_AD_B1_14"/>
+                  <pin peripheral="LPSPI3" signal="TRG" pin_num="H10" pin_signal="GPIO_AD_B0_01"/>
+                  <pin peripheral="LPSPI3" signal="PCS0" pin_num="H12" pin_signal="GPIO_AD_B1_12"/>
+                  <pin peripheral="LPSPI4" signal="PCS0" pin_num="E12" pin_signal="GPIO_B1_04"/>
+                  <pin peripheral="LPSPI4" signal="SCK" pin_num="B12" pin_signal="GPIO_B1_07"/>
+                  <pin peripheral="LPSPI4" signal="SDI" pin_num="D12" pin_signal="GPIO_B1_05"/>
+                  <pin peripheral="LPSPI4" signal="SDO" pin_num="C12" pin_signal="GPIO_B1_06"/>
                </pins>
             </function>
          </functions_list>

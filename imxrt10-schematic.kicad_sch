@@ -17684,16 +17684,6 @@
 		)
 		(uuid "b359bc07-ce12-4bb0-b917-78d1e0d27f6f")
 	)
-	(text "  /**LPUART1 GPIO Configuration\n    PC0     ------> LPUART1_RX\n    PC1     ------> LPUART1_TX\n    */"
-		(exclude_from_sim no)
-		(at 57.658 -14.732 0)
-		(effects
-			(font
-				(size 0.762 0.762)
-			)
-		)
-		(uuid "cc01ac50-69ef-42f7-8d28-a1a9bb8c4c46")
-	)
 	(text "IMXRT1170CEC"
 		(exclude_from_sim no)
 		(at 185.42 290.83 0)
@@ -18405,6 +18395,14 @@
 	(no_connect
 		(at 86.36 271.78)
 		(uuid "c40d2ac3-adc1-4b14-8667-139b395744f8")
+	)
+	(no_connect
+		(at 151.13 24.13)
+		(uuid "c94588f4-13ff-4f0b-ac18-16f0362972c2")
+	)
+	(no_connect
+		(at 151.13 21.59)
+		(uuid "ef767873-e436-40bf-8aa0-2e1aa45ebe6a")
 	)
 	(wire
 		(pts
@@ -40105,8 +40103,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "6c8b4683-ffb0-4c7c-aa4c-65112f24cb64")
 		(property "Reference" "#PWR0112"
 			(at 363.22 214.63 0)
@@ -42276,8 +42274,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8b34da80-9d54-4107-9df5-9ab8b88456fa")
 		(property "Reference" "D7"
@@ -43333,7 +43331,7 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
+		(on_board no)
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "aa2eca6e-b4a3-4cfc-bba3-8dc3c60b0b2f")
@@ -44474,8 +44472,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "bfd4befc-a108-447c-8bab-07e6702caba7")
 		(property "Reference" "#PWR0110"
 			(at 355.6 207.01 0)
@@ -48556,8 +48554,8 @@
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
-		(on_board yes)
-		(dnp no)
+		(on_board no)
+		(dnp yes)
 		(uuid "e7129046-e44b-46d3-a53d-9a70fc996921")
 		(property "Reference" "#PWR0111"
 			(at 355.6 233.68 0)

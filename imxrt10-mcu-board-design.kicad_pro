@@ -1128,6 +1128,10 @@
     [
       "9bd166bd-19ec-41af-acbf-84668fa5e324",
       "imxrt10-schematic"
+    ],
+    [
+      "8b326139-0640-44a5-be6b-48fcf80ba873",
+      "stm32f103-mcu-interface"
     ]
   ],
   "text_variables": {}
