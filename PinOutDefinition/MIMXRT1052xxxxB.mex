@@ -101,6 +101,71 @@
                         <data>true</data>
                      </feature>
                   </dependency>
+                  <dependency resourceType="Peripheral" resourceId="LPSPI2" description="Peripheral LPSPI2 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="LPSPI1" description="Peripheral LPSPI1 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="LPUART3" description="Peripheral LPUART3 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="LPUART5" description="Peripheral LPUART5 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="ADC2" description="Peripheral ADC2 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="CMP1" description="Peripheral CMP1 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="ADC1" description="Peripheral ADC1 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="CMP2" description="Peripheral CMP2 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="CMP3" description="Peripheral CMP3 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="CMP4" description="Peripheral CMP4 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="PWM1" description="Peripheral PWM1 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="PWM2" description="Peripheral PWM2 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
+                  <dependency resourceType="Peripheral" resourceId="PWM3" description="Peripheral PWM3 signals are routed in the Pins Tool, but the peripheral is not initialized in the Peripherals Tool." problem_level="1" source="Pins:BOARD_InitPins">
+                     <feature name="initialized" evaluation="equal">
+                        <data>true</data>
+                     </feature>
+                  </dependency>
                   <dependency resourceType="SWComponent" resourceId="platform.drivers.common" description="Pins initialization requires the COMMON Driver in the project." problem_level="2" source="Pins:BOARD_InitPins">
                      <feature name="enabled" evaluation="equal" configuration="core0">
                         <data>true</data>
@@ -161,6 +226,47 @@
                   <pin peripheral="LPSPI4" signal="SCK" pin_num="B12" pin_signal="GPIO_B1_07"/>
                   <pin peripheral="LPSPI4" signal="SDI" pin_num="D12" pin_signal="GPIO_B1_05"/>
                   <pin peripheral="LPSPI4" signal="SDO" pin_num="C12" pin_signal="GPIO_B1_06"/>
+                  <pin peripheral="LPSPI2" signal="PCS0" pin_num="F3" pin_signal="GPIO_EMC_01"/>
+                  <pin peripheral="LPSPI2" signal="SCK" pin_num="E3" pin_signal="GPIO_EMC_00"/>
+                  <pin peripheral="LPSPI2" signal="SDI" pin_num="G4" pin_signal="GPIO_EMC_03"/>
+                  <pin peripheral="LPSPI2" signal="SDO" pin_num="F4" pin_signal="GPIO_EMC_02"/>
+                  <pin peripheral="LPSPI1" signal="PCS0" pin_num="C6" pin_signal="GPIO_EMC_30"/>
+                  <pin peripheral="LPSPI1" signal="SCK" pin_num="A2" pin_signal="GPIO_EMC_27"/>
+                  <pin peripheral="LPSPI1" signal="SDI" pin_num="E1" pin_signal="GPIO_EMC_29"/>
+                  <pin peripheral="LPSPI1" signal="SDO" pin_num="D1" pin_signal="GPIO_EMC_28"/>
+                  <pin peripheral="LPUART3" signal="TX" pin_num="B9" pin_signal="GPIO_B0_08"/>
+                  <pin peripheral="LPUART3" signal="RX" pin_num="C9" pin_signal="GPIO_B0_09"/>
+                  <pin peripheral="LPUART5" signal="RX" pin_num="D3" pin_signal="GPIO_EMC_24"/>
+                  <pin peripheral="LPUART5" signal="TX" pin_num="G2" pin_signal="GPIO_EMC_23"/>
+                  <pin peripheral="LPUART4" signal="CTS_B" pin_num="A4" pin_signal="GPIO_EMC_17"/>
+                  <pin peripheral="LPUART4" signal="RTS_B" pin_num="B2" pin_signal="GPIO_EMC_18"/>
+                  <pin peripheral="ADC2" signal="IN, 0" pin_num="J13" pin_signal="GPIO_AD_B1_11"/>
+                  <pin peripheral="CMP1" signal="IN, 6" pin_num="J13" pin_signal="GPIO_AD_B1_11"/>
+                  <pin peripheral="ADC1" signal="IN, 0" pin_num="J13" pin_signal="GPIO_AD_B1_11"/>
+                  <pin peripheral="ADC2" signal="IN, 13" pin_num="H13" pin_signal="GPIO_AD_B1_08"/>
+                  <pin peripheral="ADC1" signal="IN, 13" pin_num="H13" pin_signal="GPIO_AD_B1_08"/>
+                  <pin peripheral="CMP2" signal="IN, 5" pin_num="H13" pin_signal="GPIO_AD_B1_08"/>
+                  <pin peripheral="ADC2" signal="IN, 14" pin_num="M13" pin_signal="GPIO_AD_B1_09"/>
+                  <pin peripheral="ADC1" signal="IN, 14" pin_num="M13" pin_signal="GPIO_AD_B1_09"/>
+                  <pin peripheral="CMP3" signal="IN, 5" pin_num="M13" pin_signal="GPIO_AD_B1_09"/>
+                  <pin peripheral="ADC2" signal="IN, 15" pin_num="L13" pin_signal="GPIO_AD_B1_10"/>
+                  <pin peripheral="ADC1" signal="IN, 15" pin_num="L13" pin_signal="GPIO_AD_B1_10"/>
+                  <pin peripheral="CMP4" signal="IN, 5" pin_num="L13" pin_signal="GPIO_AD_B1_10"/>
+                  <pin peripheral="LPUART3" signal="CTS_B" pin_num="B1" pin_signal="GPIO_EMC_15"/>
+                  <pin peripheral="LPUART3" signal="RTS_B" pin_num="A5" pin_signal="GPIO_EMC_16"/>
+                  <pin peripheral="ADC1" signal="IN, 9" pin_num="L12" pin_signal="GPIO_AD_B1_04"/>
+                  <pin peripheral="CMP3" signal="IN, 3" pin_num="L12" pin_signal="GPIO_AD_B1_04"/>
+                  <pin peripheral="ADC2" signal="IN, 9" pin_num="L12" pin_signal="GPIO_AD_B1_04"/>
+                  <pin peripheral="ADC1" signal="IN, 10" pin_num="K12" pin_signal="GPIO_AD_B1_05"/>
+                  <pin peripheral="CMP4" signal="IN, 3" pin_num="K12" pin_signal="GPIO_AD_B1_05"/>
+                  <pin peripheral="ADC2" signal="IN, 10" pin_num="K12" pin_signal="GPIO_AD_B1_05"/>
+                  <pin peripheral="PWM1" signal="A, 3" pin_num="D6" pin_signal="GPIO_EMC_38"/>
+                  <pin peripheral="PWM1" signal="B, 1" pin_num="B3" pin_signal="GPIO_EMC_26"/>
+                  <pin peripheral="PWM1" signal="B, 3" pin_num="A6" pin_signal="GPIO_EMC_13"/>
+                  <pin peripheral="PWM2" signal="A, 0" pin_num="H5" pin_signal="GPIO_EMC_06"/>
+                  <pin peripheral="PWM2" signal="B, 0" pin_num="H4" pin_signal="GPIO_EMC_07"/>
+                  <pin peripheral="PWM3" signal="A, 2" pin_num="C4" pin_signal="GPIO_EMC_33"/>
+                  <pin peripheral="PWM3" signal="B, 1" pin_num="D5" pin_signal="GPIO_EMC_32"/>
                </pins>
             </function>
          </functions_list>
@@ -174,22 +280,22 @@
                <description></description>
                <options/>
                <dependencies>
-                  <dependency resourceType="PinSignal" resourceId="XTALOSC24M.xtali" description="&apos;XTALI&apos; (Pins tool id: XTALOSC24M.xtali, Clocks tool id: XTALOSC24M.XTALI) needs to be routed" problem_level="1" source="Clocks:">
+                  <dependency resourceType="PinSignal" resourceId="XTALOSC24M.xtali" description="&apos;XTALI&apos; (Pins tool id: XTALOSC24M.xtali, Clocks tool id: XTALOSC24M.XTALI) needs to be routed" problem_level="1" source="Clocks:BOARD_BootClockRUN">
                      <feature name="routed" evaluation="">
                         <data>true</data>
                      </feature>
                   </dependency>
-                  <dependency resourceType="PinSignal" resourceId="XTALOSC24M.xtali" description="&apos;XTALI&apos; (Pins tool id: XTALOSC24M.xtali, Clocks tool id: XTALOSC24M.XTALI) needs to have &apos;INPUT&apos; direction" problem_level="1" source="Clocks:">
+                  <dependency resourceType="PinSignal" resourceId="XTALOSC24M.xtali" description="&apos;XTALI&apos; (Pins tool id: XTALOSC24M.xtali, Clocks tool id: XTALOSC24M.XTALI) needs to have &apos;INPUT&apos; direction" problem_level="1" source="Clocks:BOARD_BootClockRUN">
                      <feature name="direction" evaluation="">
                         <data>INPUT</data>
                      </feature>
                   </dependency>
-                  <dependency resourceType="PinSignal" resourceId="XTALOSC24M.xtalo" description="&apos;XTALO&apos; (Pins tool id: XTALOSC24M.xtalo, Clocks tool id: XTALOSC24M.XTALO) needs to be routed" problem_level="1" source="Clocks:">
+                  <dependency resourceType="PinSignal" resourceId="XTALOSC24M.xtalo" description="&apos;XTALO&apos; (Pins tool id: XTALOSC24M.xtalo, Clocks tool id: XTALOSC24M.XTALO) needs to be routed" problem_level="1" source="Clocks:BOARD_BootClockRUN">
                      <feature name="routed" evaluation="">
                         <data>true</data>
                      </feature>
                   </dependency>
-                  <dependency resourceType="PinSignal" resourceId="XTALOSC24M.xtalo" description="&apos;XTALO&apos; (Pins tool id: XTALOSC24M.xtalo, Clocks tool id: XTALOSC24M.XTALO) needs to have &apos;OUTPUT&apos; direction" problem_level="1" source="Clocks:">
+                  <dependency resourceType="PinSignal" resourceId="XTALOSC24M.xtalo" description="&apos;XTALO&apos; (Pins tool id: XTALOSC24M.xtalo, Clocks tool id: XTALOSC24M.XTALO) needs to have &apos;OUTPUT&apos; direction" problem_level="1" source="Clocks:BOARD_BootClockRUN">
                      <feature name="direction" evaluation="">
                         <data>OUTPUT</data>
                      </feature>
