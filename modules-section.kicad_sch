@@ -4477,16 +4477,6 @@
 		)
 		(uuid "4cdd21f5-d387-4d16-8c96-cad311f27a51")
 	)
-	(label "VDD"
-		(at 57.15 116.84 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "5a3a94f7-f3e7-4e14-a792-cd4c3e451396")
-	)
 	(label "WIZ_RST"
 		(at 238.76 57.15 0)
 		(effects

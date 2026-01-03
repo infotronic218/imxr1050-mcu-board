@@ -1994,206 +1994,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_3_Open"
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim yes)
-			(in_bom no)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at -2.54 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_3_Open"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 3-pole, both open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPDT"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*3Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_3_Open_0_0"
-				(circle
-					(center -3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 0 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 3.302 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_0_1"
-				(arc
-					(start -3.048 1.016)
-					(mid -1.651 1.4992)
-					(end -0.254 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.508) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(arc
-					(start 0.254 1.016)
-					(mid 1.651 1.4992)
-					(end 3.048 1.016)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_3_Open_1_1"
-				(pin passive line
-					(at -6.35 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 6.35 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -4773,6 +4573,16 @@
 	)
 	(wire
 		(pts
+			(xy 325.12 57.15) (xy 325.12 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0309e0da-0a6a-495f-96ec-46bc3b0c0430")
+	)
+	(wire
+		(pts
 			(xy 130.81 233.68) (xy 176.53 233.68)
 		)
 		(stroke
@@ -4783,7 +4593,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 62.23) (xy 323.85 62.23)
+			(xy 314.96 58.42) (xy 325.12 58.42)
 		)
 		(stroke
 			(width 0)
@@ -4840,6 +4650,16 @@
 			(type default)
 		)
 		(uuid "0c49a104-632a-4e9d-8934-c59310d73185")
+	)
+	(wire
+		(pts
+			(xy 161.29 302.26) (xy 176.53 302.26)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ce20b9b-9b9a-486a-8fd3-b1ee44ac2f4c")
 	)
 	(wire
 		(pts
@@ -4973,7 +4793,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 43.18) (xy 323.85 43.18)
+			(xy 314.96 45.72) (xy 325.12 45.72)
 		)
 		(stroke
 			(width 0)
@@ -5043,7 +4863,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 55.88) (xy 313.69 62.23)
+			(xy 314.96 55.88) (xy 314.96 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5240,6 +5060,16 @@
 			(type default)
 		)
 		(uuid "428ec72b-8a14-4a30-8a83-4783ac6d1c96")
+	)
+	(wire
+		(pts
+			(xy 325.12 44.45) (xy 325.12 45.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "42b4010e-74a1-4002-b91c-d6e70a414813")
 	)
 	(wire
 		(pts
@@ -5493,16 +5323,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 43.18) (xy 323.85 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "67a111ba-301f-4c71-b560-192b32f2d1d8")
-	)
-	(wire
-		(pts
 			(xy 537.21 88.9) (xy 544.83 88.9)
 		)
 		(stroke
@@ -5633,16 +5453,6 @@
 	)
 	(wire
 		(pts
-			(xy 327.66 52.07) (xy 330.2 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "73e9f8bf-4c0c-4f53-9f33-57e473587a02")
-	)
-	(wire
-		(pts
 			(xy 58.42 101.6) (xy 90.17 101.6)
 		)
 		(stroke
@@ -5653,7 +5463,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 49.53) (xy 313.69 49.53)
+			(xy 309.88 49.53) (xy 314.96 49.53)
 		)
 		(stroke
 			(width 0)
@@ -5913,6 +5723,16 @@
 	)
 	(wire
 		(pts
+			(xy 17.78 60.96) (xy 33.02 60.96)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8dc11ec8-b37c-4f4e-9ebe-63fe9eef93cf")
+	)
+	(wire
+		(pts
 			(xy 102.87 71.12) (xy 138.43 71.12)
 		)
 		(stroke
@@ -5953,7 +5773,7 @@
 	)
 	(wire
 		(pts
-			(xy 313.69 49.53) (xy 313.69 43.18)
+			(xy 314.96 49.53) (xy 314.96 45.72)
 		)
 		(stroke
 			(width 0)
@@ -6083,16 +5903,6 @@
 	)
 	(wire
 		(pts
-			(xy 323.85 58.42) (xy 323.85 62.23)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9e0dfe40-faae-4c3c-9879-df57be60685f")
-	)
-	(wire
-		(pts
 			(xy 525.78 29.21) (xy 539.75 29.21)
 		)
 		(stroke
@@ -6193,7 +6003,7 @@
 	)
 	(wire
 		(pts
-			(xy 309.88 55.88) (xy 313.69 55.88)
+			(xy 309.88 55.88) (xy 314.96 55.88)
 		)
 		(stroke
 			(width 0)
@@ -6570,16 +6380,6 @@
 			(type default)
 		)
 		(uuid "e1d2be37-72fd-4dbd-9cba-b2c5d49627ec")
-	)
-	(wire
-		(pts
-			(xy 330.2 48.26) (xy 330.2 52.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e3b3f46f-7cbb-49be-b504-58e71afff08e")
 	)
 	(wire
 		(pts
@@ -13665,6 +13465,16 @@
 		)
 		(uuid "3db458a7-54f8-4cdc-9164-d934b36961cf")
 	)
+	(label "EXT_PWR_EN"
+		(at 17.78 60.96 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3f1b1e64-9851-481a-9227-441bffba057a")
+	)
 	(label "EXT_IO19"
 		(at 58.42 106.68 0)
 		(effects
@@ -13964,6 +13774,16 @@
 			(justify left bottom)
 		)
 		(uuid "b4c66f14-cb47-47bf-b7f4-6e0242a77e6e")
+	)
+	(label "EXT_PWR_EN"
+		(at 161.29 302.26 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b5fd4b82-c74e-462f-8a58-f388755e47ef")
 	)
 	(label "EXT_IO26_UART2_RX"
 		(at 130.81 292.1 0)
@@ -14572,6 +14392,71 @@
 				)
 				(justify right)
 				(hide yes)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 325.12 44.45 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "059e6f84-86ef-493a-b7ab-e6ca820bc472")
+		(property "Reference" "#PWR036"
+			(at 325.12 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 324.612 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 325.12 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c235875b-09e9-4c0a-b4e6-3af0842d0927")
+		)
+		(instances
+			(project "imxrt10-mcu-board-design"
+				(path "/72ac21c7-a543-4794-a410-99cf6f99d934"
+					(reference "#PWR036")
+					(unit 1)
+				)
 			)
 		)
 	)
@@ -16785,6 +16670,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3.3V")
+		(at 325.12 57.15 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "94ad9c90-1967-4f3f-8622-d3b158f86f53")
+		(property "Reference" "#PWR037"
+			(at 325.12 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V_SYS"
+			(at 325.374 53.594 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 325.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 325.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 325.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f732e230-9f14-4f93-8a2d-ec1b2dc1de8e")
+		)
+		(instances
+			(project "imxrt10-mcu-board-design"
+				(path "/72ac21c7-a543-4794-a410-99cf6f99d934"
+					(reference "#PWR037")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 422.91 53.34 180)
 		(unit 1)
@@ -17191,71 +17142,6 @@
 			(project "imxrt10-mcu-board-design"
 				(path "/72ac21c7-a543-4794-a410-99cf6f99d934"
 					(reference "#PWR067")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 330.2 48.26 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "a9145b91-fac6-4ac4-ab62-d5a19ee402eb")
-		(property "Reference" "#PWR045"
-			(at 330.2 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 329.692 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 330.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 330.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 330.2 48.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6444483b-0a44-403e-a6f1-5ad1626d3fc8")
-		)
-		(instances
-			(project "rpi-pico-esp32"
-				(path "/72ac21c7-a543-4794-a410-99cf6f99d934"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -18706,89 +18592,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_3_Open")
-		(at 323.85 52.07 90)
-		(mirror x)
-		(unit 1)
-		(exclude_from_sim yes)
-		(in_bom no)
-		(on_board yes)
-		(dnp yes)
-		(fields_autoplaced yes)
-		(uuid "e8899b39-2b69-4bcf-ac9e-ec4376d0af00")
-		(property "Reference" "JP1"
-			(at 321.31 50.7999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JUMP"
-			(at 321.31 53.3399 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "External_Library:power-jumper-3"
-			(at 323.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 323.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 3-pole, both open"
-			(at 323.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part" "~"
-			(at 323.85 52.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ef9c1e1-a0f7-4bbb-b8cd-5e73038659c1")
-		)
-		(pin "3"
-			(uuid "acc875a0-127f-4507-af16-1bb649ffb628")
-		)
-		(pin "2"
-			(uuid "1207a6fe-f53a-4969-95f7-ba7bad10c2d1")
-		)
-		(instances
-			(project "rpi-pico-esp32"
-				(path "/72ac21c7-a543-4794-a410-99cf6f99d934"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "PCM_JLCPCB-Transistors:NMOS,2N7002K")
 		(at 38.1 60.96 0)
 		(unit 1)
@@ -19253,7 +19056,7 @@
 			)
 		)
 		(property "Sheetfile" "power-supply.kicad_sch"
-			(at 285.242 61.214 0)
+			(at 287.02 63.5 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -19973,6 +19776,16 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "GPIO_B1_12" input
+			(at 176.53 302.26 180)
+			(uuid "28218ab0-01f6-44a6-a2ca-23ede956e3fe")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances

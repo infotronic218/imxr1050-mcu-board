@@ -20625,6 +20625,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 113.03) (xy 209.55 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e021c1b5-14fd-486a-820a-e5b5d0568d9f")
+	)
+	(wire
+		(pts
 			(xy 55.88 252.73) (xy 45.72 252.73)
 		)
 		(stroke
@@ -24991,6 +25001,17 @@
 			(justify right)
 		)
 		(uuid "ef194c2c-5b89-4f94-b394-36feba6de670")
+	)
+	(hierarchical_label "GPIO_B1_12"
+		(shape input)
+		(at 210.82 113.03 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "efb109fe-30df-4f2e-958b-27e4c8fa5cb5")
 	)
 	(hierarchical_label "UART2_TX"
 		(shape input)
