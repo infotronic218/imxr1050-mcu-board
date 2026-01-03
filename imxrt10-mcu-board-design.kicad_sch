@@ -5313,6 +5313,16 @@
 	)
 	(wire
 		(pts
+			(xy 364.49 361.95) (xy 375.92 361.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6435aa6b-e631-4b15-ab83-77122f2a4b0e")
+	)
+	(wire
+		(pts
 			(xy 347.98 237.49) (xy 365.76 237.49)
 		)
 		(stroke
@@ -5850,6 +5860,16 @@
 			(type default)
 		)
 		(uuid "95e79d97-b4ad-40a2-9a99-a5c0776dec03")
+	)
+	(wire
+		(pts
+			(xy 351.79 217.17) (xy 365.76 217.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96436b34-c2fb-4612-acdc-2094d21db95f")
 	)
 	(wire
 		(pts
@@ -13935,6 +13955,16 @@
 		)
 		(uuid "f906ba48-620c-481e-87d0-8f1073d11176")
 	)
+	(label "WIZ_PWEN"
+		(at 364.49 361.95 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fb138b22-fb3e-4642-a2f3-6f8bf0c29372")
+	)
 	(label "EXT_IO1_I2C0_SDA"
 		(at 78.74 170.18 0)
 		(effects
@@ -13944,6 +13974,16 @@
 			(justify left bottom)
 		)
 		(uuid "fd7639d8-90c4-4c40-8fb5-8aebadb141d1")
+	)
+	(label "WIZ_PWEN"
+		(at 351.79 217.17 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ff2bd9ae-2d65-4dab-a368-2069f4e29540")
 	)
 	(label "EXT_IO4"
 		(at 58.42 71.12 0)
@@ -19206,6 +19246,26 @@
 				(justify left)
 			)
 		)
+		(pin "BOOT0" input
+			(at 375.92 344.17 180)
+			(uuid "d0606a20-3caa-4628-979c-72b69a12018d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "PB5_PWR_EN" input
+			(at 375.92 361.95 180)
+			(uuid "479f22a8-fc86-4cc9-88b3-bc3df163619a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
 		(instances
 			(project "imxrt10-mcu-board-design"
 				(path "/72ac21c7-a543-4794-a410-99cf6f99d934"
@@ -20125,6 +20185,26 @@
 		(pin "WIZ_SPI_SCK" bidirectional
 			(at 365.76 207.01 180)
 			(uuid "8961c087-1d3c-4f4f-9be9-e421efe0381b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MPU_PWEN" bidirectional
+			(at 365.76 257.81 180)
+			(uuid "bf57c2e6-4cb9-472d-86fc-7f241811813e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "WIZ_PWEN" bidirectional
+			(at 365.76 217.17 180)
+			(uuid "65a14ae1-4bf4-40c7-8c2e-ac6abb82c1e1")
 			(effects
 				(font
 					(size 1.27 1.27)

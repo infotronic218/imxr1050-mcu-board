@@ -4419,10 +4419,6 @@
 		(uuid "cf08ae48-1ed8-4472-9411-0b867304baa9")
 	)
 	(no_connect
-		(at 73.66 146.05)
-		(uuid "de4fd2d8-00bc-48dc-b506-0e2914c1452c")
-	)
-	(no_connect
 		(at 73.66 151.13)
 		(uuid "e30d1f67-df79-45bd-8903-625d303ae5aa")
 	)
@@ -4639,6 +4635,16 @@
 			(type default)
 		)
 		(uuid "226a97df-3744-4ef5-a420-2dba2ae8323b")
+	)
+	(wire
+		(pts
+			(xy 73.66 146.05) (xy 83.82 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "22e1f6b1-f922-45e2-812a-c6bae71ea490")
 	)
 	(wire
 		(pts
@@ -6277,6 +6283,17 @@
 			(justify left)
 		)
 		(uuid "b5b96210-d5e0-415a-b261-10777b5b29f9")
+	)
+	(hierarchical_label "PB5_PWR_EN"
+		(shape input)
+		(at 83.82 146.05 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d1d6b114-c4c8-4f54-99f5-dcd8fac7ddeb")
 	)
 	(symbol
 		(lib_id "Device:L")
